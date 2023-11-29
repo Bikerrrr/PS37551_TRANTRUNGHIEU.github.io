@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/1c2be09150.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="bai2.css">
+
+<body>
+    <div class="container-fluid">
+        <div class="LH">
+            <div class="help">
+                <span>HELP</span>
+                <span><i class="fa-solid fa-phone"></i>+1-202-555-0151</span>
+            </div>
+            <div class="acc">
+                <span>MY ACCOUNT</span>
+                <span>SIGN IN</span>
+                <span>CRATE ACCOUNT</span>
+            </div>
+        </div>
+
+        <div id="top">
+
+            <nav>
+
+                <ul id="menu">
+                    <img src="LOHO.png" alt="" width="100px">
+                    <li><a href="http://127.0.0.1:5500/lab7/index.html">HOME</a></li>
+                    <li><a href="#">NEW PRODUCTS</a></li>
+                    <li><a href="#">SHOP</a></A></li>
+                    <li><a href="#">PAGES</a></li>
+                    <li><a href="#">ALL PAGE LINK</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>CART($210.00)</span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+        </div>
+
+
+        <header>
+            <div class="alert alert-light" role="alert">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Category</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="SB">
+                <div class="SBC">
+                    <i class="fa-solid fa-cart-shopping fa-2xl">
+                        Shopping Cart
+                    </i>
+                </div>
+                <div class="back">
+                    <i class="fa-solid fa-chevron-left fa-lg"> BACK TO SHOPPING</i>
+                </div>
+            </div>
+
+
+            <div class="chon">
+                <div class="row">
+                    <div class="col-xxl-9">
+                        <table class="table">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>PRODUCT</th>
+                                    <th>DETAILS</th>
+                                    <th></th>
+                                    <th>QNT</th>
+                                    <th>DISCOUNT</th>
+                                    <th>TOTAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th><img src="anh4.jpg" alt="" width="100px">
+                                    </th>
+                                    <th>
+                                        <p>Denim T shirt Black</p>
+                                        <br>
+                                        <p>12 x 1.5 L</p>
+                                        <p><B>$8.80</B></p>
+                                    </th>
+                                    <th>
+                                        <i class="fa-solid fa-trash fa-2xl"></i>
+                                    </th>
+                                    <th>
+                                        <i class="fa-solid fa-minus"></i>
+                                        <button type="button" class="btn btn-outline-secondary" disabled>2</button>
+                                        <i class="fa-solid fa-plus"></i>
+                                    </th>
+                                    <th>0</th>
+                                    <th>
+                                        <b>$300
+
+                                        </b>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th><img src="anh4.jpg" alt="" width="100px">
+                                    </th>
+                                    <th>
+                                        <p>Denim T shirt Red</p>
+                                        <br>
+                                        <p>12 x 1.5 L</p>
+                                        <p><B>$30</B></p>
+                                    </th>
+                                    <th>
+                                        <i class="fa-solid fa-trash fa-2xl"></i>
+                                    </th>
+                                    <th>
+                                        <i class="fa-solid fa-minus"></i>
+                                        <button type="button" class="btn btn-outline-secondary" disabled>2</button>
+                                        <i class="fa-solid fa-plus"></i>
+
+                                    </th>
+                                    <th>0</th>
+                                    <th>
+                                        <b>
+                                            $300
+                                        </b>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th><img src="anh4.jpg" alt="" width="100px">
+                                    </th>
+                                    <th>
+                                        <p>Denim T shirt Blue</p>
+                                        <br>
+                                        <p>12 x 1.5 L</p>
+                                        <p><B>$8.80</B></p>
+                                    </th>
+                                    <th>
+                                        <i class="fa-solid fa-trash fa-2xl"></i>
+                                    </th>
+                                    <th>
+                                        <i class="fa-solid fa-minus"></i>
+                                        <button type="button" class="btn btn-outline-secondary" disabled>2</button>
+                                        <i class="fa-solid fa-plus"></i>
+                                    </th>
+                                    <th>0</th>
+                                    <th>
+                                        <b>$300
+
+                                        </b>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="continue">
+                            <button type="button" class="btn btn-secondary"><i class="fa-solid fa-arrow-left"> Continue shopping</i></button>
+                            <button type="button" class="btn btn-secondary "><i class="fa-solid fa-arrow-rotate-left"> Update cart</i></button>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-3">
+                        <button style="width: 100%; margin-bottom: 30px;" type="button" class="btn btn-lg btn-success"
+                            data-bs-toggle="popover" data-bs-title="Popover title"
+                            data-bs-content="And here's some amazing content. It's very engaging. Right?">Proceed to checkout<i class="fa-solid fa-arrow-right"></i></button>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+
+                                    <td>Toltal products</td>
+                                    <td><b>$216.51</b></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Shipping</td>
+                                    <td>
+                                        <b style="color: chartreuse;">Free shipping</b>
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Total(tax excl.)</td>
+                                    <td><b>$216.51</b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Total tax
+                                    </td>
+                                    <td><b>$0.00</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Total</td>
+                                    <td><b style="color: forestgreen;">$21651</b></td>
+                                </tr>
+                            </tbody>
+
+
+                        </table>
+                        <form class="row g-3">
+
+                            <div class="col-auto">
+                                
+                                <input type="password" class="form-control" id="inputPassword2" placeholder="Coupon code">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-primary mb-3">APPLY!</button>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </header>
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="row">
+                <div class="col-xxl-3 col-xl-3 ">
+                    <div class="duct">
+                        <span><B>SUPPORT</B></span>
+                        <hr>
+                        <p>Lorem, ipsum dolor sit amet consectetur</p>
+                        <p><i class="fa-solid fa-phone"></i>+1-202-555-0151</p>
+                        <p><i class="fa-regular fa-envelope"></i>help@yourweb.com</p>
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-3 ">
+                    <div class="duct">
+                        <span><B>SHOP</B></span>
+                        <br>
+                        <hr>
+
+                        <p>Men's</p>
+                        <p>Women's</p>
+                        <p>Kid's</p>
+                        <p>Shoes</p>
+                        <p>Gift Crads</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 ">
+                    <div class="duct">
+                        <span><B>INFORMATION</B></span>
+                        <br>
+                        <hr>
+
+                        <p>Questions</p>
+                        <p>Order Status</p>
+                        <p>Sizing Charts</p>
+                        <p>Return</p>
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-3 ">
+                    <div class="duct">
+                        <span><B>MY ACCOUNT</B></span>
+                        <br>
+                        <hr>
+
+                        <p>My Account</p>
+                        <p>Myaddress</p>
+                        <p>Wish</p>
+                        <p>Orderlist</p>
+                        <p>Order Status</p>
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-3 ">
+                    <div class="duct">
+                        <span><B>STAY IN TOUNDH</B></span>
+                        <br>
+                        <hr>
+
+                        <div class="mb-3">
+
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email"
+                                style="text-align: center;">
+
+                        </div>
+                        <button style="width: 100%;" type="button" class="btn btn-lg btn-success"
+                            data-bs-toggle="popover" data-bs-title="Popover title"
+                            data-bs-content="And here's some amazing content. It's very engaging. Right?">SUBSCRIBE</button>
+                    </div>
+                    <br>
+
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-brands fa-telegram fa-2xl"></i>
+                    <i class="fa-solid fa-circle-check fa-2xl"></i>
+                </div>
+            </div>
+        </footer>
+        <div class="TS">
+            <div class="box1">
+              <i class="fa-solid fa-earth-americas fa-2xs">TSHOP 2014. All right reserved</i>
+  
+            </div>
+            <div class="box2">
+              <img src="dich-vu-visa.jpg" alt="" width="50px">
+              <img src="paypal.jpg" alt="" width="50px">
+              <img src="the-mastercard.png" alt="" width="50px">
+              <img src="america.png" alt="" width="50px">
+            </div>
+      </div>
+    </div>
+
+</body>
+<script src="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

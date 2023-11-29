@@ -1,0 +1,118 @@
+
+#top{
+    background-color: green;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+ul#menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+ul#menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    color: white;
+}
+nav{
+    display: flex;
+}
+.right{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.LH{
+    width: 100%;
+    min-height: 30px;
+    background-color: rgb(2, 163, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.acc{
+    padding-left: 100px;
+    
+}
+.imgs{
+    width: 90%;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+.product{
+    width: 80%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+p{
+    text-align: center;
+
+}
+.icon{
+    position: absolute;
+    background-color: green;
+    top: 300px;
+    right: 225px;
+}
+.icon1{
+    position: absolute;
+    background-color: red;
+    top: 300px;
+    right: 161px;
+}
+.hinhanh{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.duct{
+    text-align: left;
+    
+}
+footer{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.row{
+    width: 100%;
+}
+.row p{
+    text-align: left;
+}
+.TS{
+    width: 100%;
+    min-height: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:768px) {
+    #top{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .LH{
+        flex-direction: column;
+    }
+    #menu{
+        flex-direction: column;
+    }
+}
+
